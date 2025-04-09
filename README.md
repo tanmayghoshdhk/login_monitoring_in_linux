@@ -20,7 +20,6 @@ Follow these steps to run the project on your Linux machine:
 
 ### 1. Clone this repository
 
-```bash
 git clone https://github.com/your-username/login_monitoring_in_linux.git
 cd login_monitoring_in_linux
 
