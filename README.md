@@ -39,15 +39,15 @@ app_password = "your-app-password"
 
 ### 3. Move Python script to your home directory
 
-mv log_monitor.py /home/your-username/
+mv login_monitor.py /home/your-username/
 
    - Replace your-username with your actual Linux username.
 
 ### 4. Edit the systemd service file
 
-Open log_monitor.service and update the path to match where you moved the Python script:
+Open login_monitor.service and update the path to match where you moved the Python script:
 
-- ExecStart=/usr/bin/python3 /home/your-username/log_monitor.py
+- ExecStart=/usr/bin/python3 /home/your-username/login_monitor.py
 - WorkingDirectory=/home/your-username
 
 ### 5. Move the systemd file to the proper location
@@ -57,9 +57,9 @@ sudo mv log_monitor.service /etc/systemd/system/
 ### 6. Enable and start the service
 
 - sudo systemctl daemon-reload
-- sudo systemctl enable log_monitor.service
-- sudo systemctl start log_monitor.service
+- sudo systemctl enable login_monitor.service
+- sudo systemctl start login_monitor.service
 
 ### You can check the status with:
 
-# sudo systemctl status log_monitor.service
+## sudo systemctl status login_monitor.service
