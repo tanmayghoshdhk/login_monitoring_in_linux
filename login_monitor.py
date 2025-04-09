@@ -1,8 +1,4 @@
-## 📜 Python Script
 
-#File: `log_monitor.py`
-
-```python
 import time
 import re
 import smtplib
