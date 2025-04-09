@@ -14,13 +14,14 @@ This project monitors **successful SSH logins** on a Linux system and sends **em
 - 🛠️ Easy to configure and extend with custom keywords
 
 ---
+---
 ## ▶️ How to Run
 
 Follow these steps to run the project on your Linux machine:
 
 ### 1. Clone this repository
 
-git clone https://github.com/your-username/login_monitoring_in_linux.git
+git clone https://github.com/tanmayghoshdhk/login_monitoring_in_linux.git
 cd login_monitoring_in_linux
 
 ### 2. Edit the Python script
