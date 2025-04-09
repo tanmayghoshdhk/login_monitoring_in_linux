@@ -1,0 +1,12 @@
+[Unit]
+Description=Login Monitoring Service
+After=network.target
+
+[Service]
+ExecStart=/usr/bin/python3 /home/tanmay/log_monitor.py #input your login monitor python location replase /home/user/log_monitor.py
+WorkingDirectory=/home/tanmay                          # Replase your Home Directory..... /home/user
+Restart=always
+User=root
+
+[Install]
+WantedBy=multi-user.target
