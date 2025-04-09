@@ -56,10 +56,10 @@ sudo mv log_monitor.service /etc/systemd/system/
 
 ### 6. Enable and start the service
 
-sudo systemctl daemon-reload
-sudo systemctl enable log_monitor.service
-sudo systemctl start log_monitor.service
+- sudo systemctl daemon-reload
+- sudo systemctl enable log_monitor.service
+- sudo systemctl start log_monitor.service
 
 ### You can check the status with:
 
-sudo systemctl status log_monitor.service
+# sudo systemctl status log_monitor.service
